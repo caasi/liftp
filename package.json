@@ -1,0 +1,31 @@
+{
+  "name": "liftp",
+  "version": "0.1.0",
+  "description": "liftPromiseN",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caasi/liftp.git"
+  },
+  "keywords": [
+    "lift",
+    "promise",
+    "async"
+  ],
+  "author": "caasi Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caasi/liftp/issues"
+  },
+  "homepage": "https://github.com/caasi/liftp",
+  "devDependencies": {
+    "babel": "^4.5.5",
+    "bluebird": "^2.9.12",
+    "mocha": "^2.1.0",
+    "should": "^5.0.1",
+    "superagent": "^0.21.0"
+  }
+}
