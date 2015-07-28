@@ -18,3 +18,9 @@ Promise.promisifyAll(fs);
 show(fs.readFile('./index.js'));
 ```
 
+*Note:* If you're using the native `Promise.all()` function, make sure to `.bind()` it to the `Promise` before passing it into `liftp`.
+
+``` javascript
+var all = Promise.all.bind(Promise);
+var lift = liftp(all);
+```
